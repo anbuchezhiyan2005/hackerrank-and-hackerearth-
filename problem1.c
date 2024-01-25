@@ -10,6 +10,8 @@ int main(){
 	int** a = (int**)malloc(N * sizeof(int*));
 	input(a,N);
 	pic(a,L,N);
+
+	free(a);
 	return 0;
 }
 
