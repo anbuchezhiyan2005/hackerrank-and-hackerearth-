@@ -1,14 +1,10 @@
 #include <stdio.h>
-
-
 void ans();
 
-int main(){
-	
+int main(){	
 	ans();
 	return 0;
 }
-
 void ans(){
 	int num;
 	while(1){
