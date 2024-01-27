@@ -46,12 +46,10 @@ void ans(int a,int b){
             printf("nine\n");
             break;
           default:
-              if(i > 9 && i <= b){
             if(i % 2 == 0)
                 printf("even\n");
             else 
                 printf("odd\n");
-            }  
               
       }
       
