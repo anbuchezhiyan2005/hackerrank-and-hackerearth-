@@ -7,14 +7,16 @@ void ans(int a, int b);
 
 int main() 
 {
-    int a, b;
+    int a;
+    int b;
     scanf("%d\n%d", &a, &b);
     ans(a,b);
 return 0;
 }
 
 void ans(int a,int b){
-    for(int i=a;i<=b;i++)
+    int  i;
+    for(i=a;i<=b;i++)
     {
       switch(i){
           case 1:
