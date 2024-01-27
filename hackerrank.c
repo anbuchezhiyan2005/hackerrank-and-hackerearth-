@@ -45,13 +45,16 @@ void ans(int a,int b){
         case 9:
             printf("nine\n");
             break;
-      }
-      if(i > 9 && i <= b){
+          default:
+              if(i > 9 && i <= b){
             if(i % 2 == 0)
                 printf("even\n");
             else 
                 printf("odd\n");
+            }  
+              
       }
+      
     }
 }
 
