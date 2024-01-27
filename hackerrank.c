@@ -15,8 +15,7 @@ return 0;
 }
 
 void ans(int a,int b){
-    int  i;
-    for(i=a;i<=b;i++)
+    for(int i=a;i<=b;i++)
     {
       switch(i){
           case 1:
